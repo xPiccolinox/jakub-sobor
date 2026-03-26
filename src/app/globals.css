@@ -24,3 +24,51 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@keyframes floatHello {
+  0% {
+    transform: translate3d(0, 0, 0) rotate(-4deg);
+  }
+  50% {
+    transform: translate3d(0.4rem, -0.38rem, 0) rotate(-2.7deg);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) rotate(-4deg);
+  }
+}
+
+@keyframes floatIm {
+  0% {
+    transform: translate3d(-1rem, 0, 0) rotate(-6deg);
+  }
+  50% {
+    transform: translate3d(-1.6rem, 0.34rem, 0) rotate(-3deg);
+  }
+  100% {
+    transform: translate3d(-1rem, 0, 0) rotate(-6deg);
+  }
+}
+
+@keyframes floatJacob {
+  0% {
+    transform: translate3d(0, 0, 0) rotate(3deg);
+  }
+  50% {
+    transform: translate3d(0.2rem, 0.42rem, 0) rotate(1.8deg);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) rotate(3deg);
+  }
+}
+
+@keyframes floatCup {
+  0% {
+    transform: translate3d(0, 0, 0) rotate(0deg);
+  }
+  50% {
+    transform: translate3d(0.32rem, 0.8rem, 0) rotate(2.3deg);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) rotate(0deg);
+  }
+}
